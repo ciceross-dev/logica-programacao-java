@@ -4,7 +4,7 @@ Este repositório contém meus estudos de lógica de programação utilizando Ja
 Organizado de forma profissional, seguindo padrões recomendados para portfólio e mercado.
 
 ## 📁 Estrutura
-- **src/** → Código-fonte separado por módulos:
+
 - Módulo 1:Estruturas sequencial
 - Módulo 2:Estruturas Condicional
 - Módulo 3:Estruturas Repetitivas
