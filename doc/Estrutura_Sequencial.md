@@ -38,3 +38,23 @@
   - "%d" = Número Inteiros
   - "%s" = Strings
   - "%n" = Quebra de linha
+*Processamento de Dados
+  - É feito pelo meio da comando de Atribuição (=);
+  - - Casting
+    - É um conversão explicita de tipo de dados.
+  *Entrada de dados
+    - É quando o usúario informa dados para o programa.
+    - - Scanner
+    - É uma classe que permite capturar dados digitados pelo usúario.
+    1º Importa a classe
+      - import java.util.Scanner;
+    2º Criar o Objeto
+      - Scanner sc = new Scanner(System.in);
+    3º Quando não precisar do objeto
+      - sc.close();
+    4º Para ler os tipos de dados
+      - String = sc.next();
+      - Int = sc.nextInt();
+      - Double = sc.nextDouble();
+      - Char = sc.next().charAt(0);
+    
