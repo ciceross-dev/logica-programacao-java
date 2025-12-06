@@ -4,12 +4,12 @@ import java.util.Scanner;
 public class EntradaDeDados {
     public static void main(String[] args){
 
-        Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
+        Scanner sc = new Scanner(System.in).useLocale(Locale.US);
 
-        String nome = scanner.next();
-        int idade = scanner.nextInt();
-        double renda = scanner.nextDouble();
-        char primeiraLetraNome = scanner.next().charAt(0);
+        String nome = sc.next();
+        int idade = sc.nextInt();
+        double renda = sc.nextDouble();
+        char primeiraLetraNome = sc.next().charAt(0);
 
         System.out.println("Dados digitados: ");
         System.out.println("Nome: "+ nome);
@@ -17,6 +17,24 @@ public class EntradaDeDados {
         System.out.println("Salário: "+ renda);
         System.out.println("Letra Inicial do nome: "+primeiraLetraNome);
 
-        scanner.close();
+
+        System.out.println("Fazendo a Leitura da linha inteira e resolvendo a quebra de linha pendente.");
+        int numero;
+        String texto1, texto2, texto3;
+
+        numero = sc.nextInt();
+        sc.nextLine();
+        texto1 = sc.nextLine();
+        texto2 = sc.nextLine();
+        texto3 = sc.nextLine();
+
+        System.out.println("Dados digitados: ");
+        System.out.println(numero);
+        System.out.println(texto1);
+        System.out.println(texto2);
+        System.out.println(texto3);
+
+
+        sc.close();
     }
 }
